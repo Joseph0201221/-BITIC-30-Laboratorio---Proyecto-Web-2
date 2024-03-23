@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Banner Web -->
+    <div class="banner">
+        <h1>Bienvenido a nuestra página</h1>
+        <p>Descubre todo lo que ofrecemos</p>
+
+        <!-- Chat Whatsapp -->
+    <div class="whatsapp-chat">
+    <a href="https://api.whatsapp.com/send?phone=TUNUMERODEWHATSAPP" class="contact-icon" target="_blank"><i class="bi bi-whatsapp"></i></a>
+       
+    </div>
+    </div>
+    </header>
+
+    <video autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <!-- Audio MP3 -->
+    <audio controls>
+        <source src="video de 1 segundo.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- Mapa Google -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.39364594802!2d-74.07209218955099!3d40.71277675862131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1604017699172!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <!-- Formulario de Suscripción -->
+    <form action="#" method="post" class="subscribe-form">
+        <h2>Suscríbete para recibir nuestras novedades</h2>
+        <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+        <button type="submit">Suscribirse</button>
+    </form>
+
+    <!-- Microinteracciones -->
+    <div class="microinteractions">
+        <button class="like-btn"><img src="hands.png" alt="Like" style="width: 30px; height: 30px;"></button>
+        <button class="share-btn"><img src="share.png" alt="Share" style="width: 30px; height: 30px;"></button>
+    </div>
+    
+
+
+    <!-- Botón Scroll Top -->
+    <button onclick="scrollToTop()" class="scrolltop-btn">Ir arriba</button>
+
+    <!-- Botones -->
+    <div class="buttons">
+        <button>Botón 1</button>
+        <button>Botón 2</button>
+        <button>Botón 3</button>
+    </div>
+    <!-- Script para scroll top -->
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
