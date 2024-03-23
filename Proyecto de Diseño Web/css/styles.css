@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; 
+    color: #fff; 
+}
+
+header {
+    background-color: #001f3f; 
+    color: #fff; 
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+    background-image: url(bigstock-Concept-Of-Programming-Coding-375861967-1024x576.jpg);
+    background-size: cover; 
+    background-position: center; 
+}
+
+.contact-icons a {
+    margin-right: 5px; 
+    font-size: 24px; 
+    color: #fff; 
+}
+
+.bi-facebook {
+    color: #3b5998; 
+}
+
+.bi-whatsapp {
+    color: #25D366; 
+}
+
+.contact-info {
+    float: right; 
+    margin-top: -70px;
+    display: flex; 
+}
+
+.contact-icon {
+    margin-left: 10px; 
+    color: #fff;
+    font-size: 24px; 
+}
+
+.contact-info span {
+    color: #fff; 
+    font-size: 20px; 
+    margin-right: 10px; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-info {
+        float: none; 
+        margin-top: 0; 
+        justify-content: center; 
+    }
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#cursos {
+    background-size: cover;
+    background-position: center;
+    padding: 20px; 
+}
+
+
+.texto-cursos {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+}
+
+
+.texto-cursos ul {
+    list-style-type: none; 
+}
+
+.texto-cursos ul li {
+    margin-bottom: 20px; 
+}
+section {
+    margin-bottom: 40px;
+}
+
+.beneficio { 
+    background-size: cover;
+}
+
+
+
+.beneficios {
+    background-image: url('origen-nombres-informatica-nunca-hubieras-imaginado_2.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.texto-beneficios {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra gris */
+    color: #fff; /* Color del texto */
+}
+
+.texto-beneficios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.texto-beneficios ul li {
+    margin-bottom: 10px;
+}
+
+
+.linea-divisora {
+    border-top: 1px solid #ccc; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+#about {
+    background-image: url('about-us-page-1024x512.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.texto-acerca {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+}
+
+#becas {
+    background-image: url('fotonota02_26.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+
+.texto-becas {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.texto-becas h3 {
+    margin-top: 20px;
+}
+
+.texto-becas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.texto-becas li {
+    margin-bottom: 20px;
+}
+
+.texto-becas h4 {
+    margin-bottom: 10px;
+}
+
+.texto-becas p {
+    margin-bottom: 10px;
+}
+
+
+
+h2 {
+    color: white; 
+}
+
+hr {
+    border: 0; 
+    height: 1px; 
+    background-color: #ccc; 
+    margin: 20px 0; 
+}
+
+footer {
+    background-color:#001f3f; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
